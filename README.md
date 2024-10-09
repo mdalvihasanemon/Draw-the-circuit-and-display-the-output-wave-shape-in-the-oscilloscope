@@ -21,16 +21,22 @@ Step 1: Place the AC Voltage Source:
 Search for the AC Voltage Source in the components library.
 Drag it to the workspace.
 Set the desired voltage and frequency (e.g., 5V, 60Hz).
+
+
 Step 2: Place the Diodes:
 
 Place four diodes to form the bridge rectifier. The arrangement should be as follows:
 Two diodes' anodes are connected to the AC input's positive terminal.
 Two diodes' cathodes are connected to the AC input's negative terminal.
 The other ends of the diodes form the rectified output.
+
+
 Step 3: Add the Load Resistor:
 
 Connect a resistor across the output terminals of the bridge rectifier.
 This resistor represents the load.
+
+
 Step 4: Connect the Oscilloscope:
 
 Attach the oscilloscope across the load resistor to measure the output voltage waveform.
